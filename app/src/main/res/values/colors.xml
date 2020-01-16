@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorPrimaryDarkSea">#142244</color>
+    <color name="colorPrimaryDarkDarkSea">#0A1020</color>
+    <color name="colorBackgroundDarkSea">#142244</color>
+    <color name="textColorPrimaryDarkSea">#77CEFF</color>
+
+    <color name="colorPrimaryShallowWaters">#D8ECEF</color>
+    <color name="colorPrimaryDarkShallowWaters">#2F828D</color>
+    <color name="colorSecondaryShallowWaters">#51D7EA</color>
+    <color name="colorBackgroundShallowWaters">#FFFFFF</color>
+    <color name="textColorPrimaryShallowWaters">#2F828D</color>
+</resources>

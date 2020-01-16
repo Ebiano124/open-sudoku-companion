@@ -1,0 +1,2 @@
+rootProject.name='Sudoku Companion'
+include ':app'

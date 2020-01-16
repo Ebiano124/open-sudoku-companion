@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorPrimary">@color/colorPrimaryShallowWaters</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkShallowWaters</item>
+        <item name="android:colorSecondary">@color/colorSecondaryShallowWaters</item>
+        <item name="android:colorBackground">@color/colorBackgroundShallowWaters</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryShallowWaters</item>
+    </style>
+
+</resources>
