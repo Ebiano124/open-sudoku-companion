@@ -11,8 +11,14 @@ class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         splashScreenView = SplashScreenView(this)
         setContentView(R.layout.activity_splash_screen)
         splashScreenView.initViews()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        splashScreenView.bindDataToViews()
     }
 }

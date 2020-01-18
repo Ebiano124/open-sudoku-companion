@@ -10,16 +10,18 @@ import com.doneboredly.sudokucompanion.view.HomeView
 
 class HomeActivity : AppCompatActivity() {
 
-    private lateinit var homeView:HomeView
+    private lateinit var view:HomeView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        homeView = HomeView(this)
-        setContentView(homeView.view)
-        homeView.initViews()
+        view = HomeView(this, null)
+        setContentView(view.view)
+        view.initViews()
     }
 
     override fun onResume(){
         super.onResume()
+        //Get any data from models
+        view.bindDataToViews()
     }
 }
